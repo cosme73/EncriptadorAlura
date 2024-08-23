@@ -1,0 +1,123 @@
+
+
+.btn {
+  --color2: hsl(243, 33%, 67%);
+  --hover: #0b257a;
+}
+
+
+.btn {
+  color: var(--color2);
+  transition: 0.25s;
+}
+.btn:hover, button:focus {
+  border-color: var(--hover);
+  color: #0b257a;
+}
+
+
+.btn {
+  background: none;
+  border: 3px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+    padding: 0.5em 2em;
+  border-radius: 20px;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 2%;
+    padding: 0;
+    background-color: #F3F5FC;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.content {
+    flex: 1; 
+}
+
+.container1, .container2, .container3 {
+    margin: 2%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.textoentrada, .textoSalida {
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 18px;
+    color: #E0E0E0;
+    background-color: #9eabe9;
+    border-radius: 10px;
+    resize: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.advertencia{
+    color: #FF0000;
+    font-size: 14px;
+    margin-top: 10px;
+}  
+
+html, body {
+    height: 100%; 
+    margin: 0; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.content {
+    flex: 1; 
+}
+
+footer {
+    background-color: #F3F5FC; 
+    color: #39426b; 
+    padding: 20px 0; 
+    text-align: center; 
+    border-top: 1px solid #F3F5FC; 
+}
+
+.footer-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+footer p {
+    margin: 5px 0; 
+    font-size: 14px; 
+}
+
+
+@media (max-width: 600px) {
+    footer p {
+        font-size: 12px; 
+    }
+}
+
+.social-links {
+    margin-top: 10px; /* Espaciado superior */
+}
+.social-icon {
+    color: #000000; /* Color de los iconos */
+    margin: 0 10px; /* Espaciado horizontal entre los iconos */
+    font-size: 24px; /* Tamaño de los iconos */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+.social-icon:hover {
+    color: #ddd; /* Cambia el color al pasar el ratón */
+}
